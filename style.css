@@ -74,7 +74,7 @@ a.btn--radius {
 
 @font-face {
   font-family: 'tare';
-  src: url('font/FOT-RowdyStd-EB.ttf') format('truetype');
+  src: url('Font/FOT-RowdyStd-EB.ttf') format('truetype');
 }
 h1 {
   font-family: 'tare';
