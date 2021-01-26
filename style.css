@@ -1,0 +1,90 @@
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+.btn--blue,
+a.btn--blue {
+  color: #fff;
+  background-color: #069ff8;
+}
+.btn--blue:hover,
+a.btn--blue:hover {
+  color: #fff;
+  background: #16aff8;
+}
+
+.btn--discord,
+a.btn--discord {
+    color: #fff;
+    background-color: #25262f;
+}
+.btn--discord:hover,
+a.btn--discord:hover {
+    color: #fff;
+    background-color: #7288da;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
+
+.title {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    /*background-color: #ffffff;*/
+    /*border-radius: 100vh;*/
+    color: #000000;
+    text-align: center;
+    border-bottom: 3px solid #000;
+  }
+
+@font-face {
+  font-family: 'tare';
+  src: url('font/FOT-RowdyStd-EB.ttf') format('truetype');
+}
+h1 {
+  font-family: 'tare';
+}
+h2 {
+  font-family: 'tare';
+}
+a {
+  font-family: 'tare';
+}
+p {
+    font-family: 'tare';
+}
