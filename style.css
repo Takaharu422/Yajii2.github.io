@@ -46,6 +46,18 @@ a.btn--blue:hover {
   background: #16aff8;
 }
 
+.btn--discord,
+a.btn--discord {
+    color: #fff;
+    background-color: #25262f;
+}
+
+.btn--discord:hover,
+a.btn--discord:hover {
+    color: #fff;
+    background-color: #7288da;
+}
+
 a.btn--radius {
    border-radius: 100vh;
 }
